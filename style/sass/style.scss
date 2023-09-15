@@ -1,0 +1,166 @@
+$Beige: #f3cba5;
+$Marron: #975a5e; 
+$MarronTerre: #453953; 
+$MarronChocolat: #25161b;
+$White : #FFF;
+$Black : #000;
+
+body{
+    background-color: $MarronChocolat;
+}
+
+.navigation{
+    color: $White;
+    &__1{
+        background-color : $MarronTerre ;
+    }
+    &__2{
+        background-color : $Black ;
+    }
+}
+
+.footer{
+    align-items: center;
+    color: $White;
+    text-align: center;
+    background-color: $Black;
+    &__1{
+        div{
+            justify-content: center;
+        }
+    }
+    &__2{
+        background-color: $MarronTerre;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
+
+// index.html
+
+.caroussel{
+    box-shadow: 0 2px 15px 0 rgba(253, 251, 251, 0.2), 0 6px 20px 0 rgba(255, 250, 250, 0.19);
+}
+
+
+
+//Page de portfolio
+.gallery{
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+        color: $Beige;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    padding: 40px;
+    margin: 40px 80px;
+    &__item{
+        padding: 20px;
+        text-align: center;
+        &--img{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 20px;
+        }
+        a{
+            color: $Beige;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.formulaire{
+    margin-bottom: 60px;
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+        color: $Beige;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__border{
+        padding: 40px;
+        justify-self: center;
+        background-color: $MarronTerre;
+    }
+
+    
+    &-form{
+        align-self: center;
+    }
+
+    #form input[type=submit] {
+        padding: 10px;
+        margin-top: 10px;
+        width: 100%;
+        color: white;
+        background-color: red;
+        border: none;
+        color: #000;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+    .input-control {
+        display: flex;
+        flex-direction: column;
+        input{
+            border: 1px solid yellow;
+            border-radius: 4px;
+            display: block;
+            font-size: 14px;
+            padding: 10px;
+            &:focus{
+                outline: 0;
+            }
+        }
+    }
+    .input-control.success{
+        input , textarea{
+            border-color: #09c372;
+        }
+        
+    }
+    
+    .input-control.error{
+        input, textarea{
+            border-color: red;
+        }
+    }
+    
+    .input-control .errorMessage {
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        height: 13px;
+    }
+    
+}
+
+
+
+
+
+
+.SEO{
+
+    background-color: $Beige;
+    padding: 40px 90px;
+    &__1{
+        justify-self: right;
+        color: $Black;
+        align-self: center;
+    }
+    &__2{
+        h3{
+            font-weight: bold;
+            font-size: 24px;
+            margin: 0 0 10px 0;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}

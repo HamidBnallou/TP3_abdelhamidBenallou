@@ -1,0 +1,130 @@
+body {
+  background-color: #25161b;
+}
+
+.navigation {
+  color: #FFF;
+}
+.navigation__1 {
+  background-color: #453953;
+}
+.navigation__2 {
+  background-color: #000;
+}
+
+.footer {
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  background-color: #000;
+}
+.footer__1 div {
+  justify-content: center;
+}
+.footer__2 {
+  background-color: #453953;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.caroussel {
+  box-shadow: 0 2px 15px 0 rgba(253, 251, 251, 0.2), 0 6px 20px 0 rgba(255, 250, 250, 0.19);
+}
+
+.gallery {
+  padding: 40px;
+  margin: 40px 80px;
+}
+.gallery h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f3cba5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.gallery__item {
+  padding: 20px;
+  text-align: center;
+}
+.gallery__item--img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+.gallery__item a {
+  color: #f3cba5;
+  font-weight: bold;
+}
+
+.formulaire {
+  margin-bottom: 60px;
+}
+.formulaire h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f3cba5;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.formulaire__border {
+  padding: 40px;
+  justify-self: center;
+  background-color: #453953;
+}
+.formulaire-form {
+  align-self: center;
+}
+.formulaire #form input[type=submit] {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: red;
+  border: none;
+  color: #000;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.formulaire .input-control {
+  display: flex;
+  flex-direction: column;
+}
+.formulaire .input-control input {
+  border: 1px solid yellow;
+  border-radius: 4px;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+}
+.formulaire .input-control input:focus {
+  outline: 0;
+}
+.formulaire .input-control.success input, .formulaire .input-control.success textarea {
+  border-color: #09c372;
+}
+.formulaire .input-control.error input, .formulaire .input-control.error textarea {
+  border-color: red;
+}
+.formulaire .input-control .errorMessage {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+  height: 13px;
+}
+
+.SEO {
+  background-color: #f3cba5;
+  padding: 40px 90px;
+}
+.SEO__1 {
+  justify-self: right;
+  color: #000;
+  align-self: center;
+}
+.SEO__2 h3 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+.SEO__2 p {
+  font-size: 16px;
+}
