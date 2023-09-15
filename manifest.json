@@ -1,0 +1,42 @@
+{
+    "name": "Abdelhamid Benallou TP3",
+    "short_name": "HamidTP3",
+    "start_url": "index.html",
+    "display": "standalone",
+    "theme_color": "#f3cba5",
+    "background_color": "#25161b",
+    "icons": [
+        {
+            "src": "images/icons/facebook.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },{
+            "src": "images/icons/linkedin.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },{
+            "src": "images/icons/messenger.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },{
+            "src": "images/icons/twitter.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },{
+            "src": "images/icons/youtube.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        ,{
+            "src": "images/icons/coding.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+    }
