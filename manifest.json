@@ -38,5 +38,41 @@
             "type": "image/png",
             "purpose": "any maskable"
         }
+        ,{
+            "src": "images/icons/adobe-photoshop.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        ,{
+            "src": "images/icons/atom.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        ,{
+            "src": "images/icons/html-5.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        ,{
+            "src": "images/icons/indesign.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        ,{
+            "src": "images/icons/js.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+        ,{
+            "src": "images/icons/php.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
     ]
     }

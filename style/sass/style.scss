@@ -30,6 +30,9 @@ body{
         }
     }
     &__2{
+        img{
+            text-align: center;
+        }
         background-color: $MarronTerre;
         text-align: center;
         padding: 20px 0;
@@ -43,7 +46,11 @@ body{
     box-shadow: 0 2px 15px 0 rgba(253, 251, 251, 0.2), 0 6px 20px 0 rgba(255, 250, 250, 0.19);
 }
 
-
+.statistique{
+    &__section{
+        background-color: $Marron;
+    }
+}
 
 //Page de portfolio
 .gallery{
@@ -72,6 +79,8 @@ body{
 
 
 .formulaire{
+    justify-self: center;
+
     margin-bottom: 60px;
     h2{
         font-size: 48px;
@@ -80,29 +89,28 @@ body{
         text-align: center;
         margin-bottom: 20px;
     }
-
-    &__border{
-        padding: 40px;
-        justify-self: center;
+    &__item{
         background-color: $MarronTerre;
-    }
+        
+        padding: 20px 40px;
+        label{
+            color: $White;
+        }
 
+        input[type=submit] {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            color: white;
+            background-color: $MarronChocolat;
+            border: none;
+            color: $Beige;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+    }
     
-    &-form{
-        align-self: center;
-    }
-
-    #form input[type=submit] {
-        padding: 10px;
-        margin-top: 10px;
-        width: 100%;
-        color: white;
-        background-color: red;
-        border: none;
-        color: #000;
-        font-size: 14px;
-        border-radius: 4px;
-    }
     .input-control {
         display: flex;
         flex-direction: column;
@@ -140,10 +148,6 @@ body{
 }
 
 
-
-
-
-
 .SEO{
 
     background-color: $Beige;
@@ -163,4 +167,60 @@ body{
             font-size: 16px;
         }
     }
+}
+
+
+
+/// parcours.html
+/// 
+.competence{
+    padding: 0 40px;
+    margin: 40px;
+    text-align: center;
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+        color: $Beige;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__item{
+        padding: 20px;
+        background-color: $MarronTerre;
+        h4{
+            color: $Beige;
+            font-weight: bold;
+            font-size: 24px;
+            text-decoration: underline;
+        }
+        P{
+            color: $White;
+        }
+    }
+    
+}
+
+.formations{
+    text-align: center;
+    background-color: $Marron;
+
+    h2{
+        font-size: 48px;
+        font-weight: bold;
+        color: $Beige;
+        text-align: center;
+        margin: 20px 0;
+    }
+    &__container{
+        margin: 30px 60px;
+        article{
+            background-color: $MarronTerre;
+            margin: 0 20px;
+            p{
+                margin: 20px 0;
+            }
+        }
+
+    }
+    
 }
